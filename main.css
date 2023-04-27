@@ -1,0 +1,474 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-color: black;
+  color: #fff;
+}
+.bg-light {
+	background-color: transparent !important;
+}
+.logo{
+  width: 100%;
+  height: 40px ;
+}
+p{
+	text-align: center;
+	padding-top: 1em;
+	color: rgb(255, 255, 255);
+}
+
+
+
+/* modal */
+.modal-content {
+	width: 80%;
+	margin: 0 auto;
+  }
+  .modal-body {
+	padding: 0;
+  }
+  .btn-close {
+	position: absolute;
+	right: 0;
+	padding: 1em;
+  }
+  h1 {
+	font-size: 2.3em;
+	font-weight: bold;
+  }
+  .myform {
+	padding: 2em;
+	max-width: 100%;
+	color: #fff;
+	box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+  }
+  @media (max-width: 576px) {
+	.myform {
+	  max-width: 90%;
+	  margin: 0 auto;
+	}
+  }
+  .form-control:focus {
+	box-shadow: inset 0 -1px 0 #7e7e7e;
+  }
+  .form-control {
+	background-color: inherit;
+	color: #fff;
+	padding-left: 0;
+	border: 0;
+	border-radius: 0;
+	border-bottom: 1px solid #fff;
+  }
+  .myform .btn {
+	width: 100%;
+	font-weight: 800;
+	background-color: #fff;
+	border-radius: 0;
+	padding: 0.5em 0;
+  }
+  .myform .btn:hover {
+	background-color: inherit;
+	color: #fff;
+	border-color: #fff;
+  }
+  .auth {
+	text-align: center;
+	padding-top: 2em;
+	color: grey;
+  }
+  .auth .aut {
+	color: #e1e1e1;
+	text-decoration: none;
+  }
+  .auth .aut:hover {
+	color: #fff;
+  }
+
+.carousel-item {
+	height: 100vh;
+	min-height: 300px; 
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.corousel-inner{
+	background-image: linear-gradient(to bottom,
+	rgb(0, 0, 0,.1), rgb(0, 0, 0,.7), rgb(0, 0, 0,.4), rgb(0, 0, 0));
+}
+.carousel-caption p {
+	width: 60%;
+	padding: 10px;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.0;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+  border: none;
+	text-decoration: none;
+	/* background: black; */
+	padding: 10px 30px;
+	display: inline-block;
+	/* color: rgb(255, 255, 255); */
+	margin-top: 15px;
+}
+.navbar-nav a {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.text{
+  padding: 45px;
+  text-align: center;
+}
+.card-text{
+  padding: 15px;
+}
+.contentimg{
+  border: none;
+  width: 300px;
+  height: auto;
+  
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.carousel-caption {
+		bottom: 165px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+}
+
+/* what we do */
+
+.section{
+    background:linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 0, 0,.7));
+    padding:15px 10%;
+    padding-bottom: 100px;
+}
+
+.section .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.section .service{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.section .service .box{
+    box-shadow: 0 5px 10px rgba(255, 255, 255,);
+    border-radius: 5px;
+	border: 1px solid white;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    padding:30px 20px;
+}
+
+.section .service .box img{
+    height: 80px;
+	color: white;
+}
+
+.section .service .box h3{
+    color:rgb(0, 0, 0);
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.section .service .box p{
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.section .service .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:rgb(0, 0, 0);
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.section .service .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.section .service .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+/* our honors */
+.uuu{
+	text-align: start;
+	margin-top: 150px;
+}
+
+.card0{
+	width: 300px;
+	height: 230px;
+	text-align: start;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: url(./images/cat.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.card-2{
+	width: 300px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: url(./images/leon.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.card-3{
+	width: 300px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: url(./images/mountain-dark-nature.jpg);
+	background-position: center;
+	background-size: cover;
+}.card-4{
+	width: 300px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: url(./images/accesories.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.card-5{
+	width: 300px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: url(./images/moto.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.card-6{
+	width: 300px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: url(./images/leaf.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.card-7{
+	width: 300px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: url(./images/lake.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.card-8{
+	width: 300px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: url(./images/darkleaf.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.what{
+	text-align: center;
+	
+}
+@media (max-width:768px){
+    .section{
+        padding:20px;
+    }
+}
+
+/* clients */
+
+.slider-area h2 {
+	text-align: center;
+	font-family: impact;
+	font-size: 60px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 100px 0 30px 0;
+	color: #fff;
+}
+.wrapper {
+	display: flex;
+	width: 750px;
+	/* height: 100px; */
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 180px;
+	padding: 2.5rem;
+	background: rgb(0, 0, 0);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.item {
+	animation: animate 25s alternate linear infinite;
+}
+.container:hover .item {
+	animation-play-state: paused;
+}
+@keyframes animate {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+	100% {
+		transform: translate3d(-1100px, 0, 0);
+	}
+}
+@media (max-width:767px) {
+	.slider-area h2 {
+		font-size: 30px;
+	}
+	.wrapper {
+		width: 95%;
+		border-radius: 0;
+		padding: 0;
+	}
+}
+
+
+/* footer */
+
+.footer{
+	font-family: 'Segoe UI';
+	font-weight: 400;
+	background-color: rgb(0, 0, 0);
+	padding: 40px 0;
+}
+.footer .social{
+	text-align: center;
+	padding-bottom: 25px;
+	color: rgb(255, 255, 255);
+}
+.footer .social a {
+	text-align: center;
+	font-size: 24px;
+	color: inherit;
+	border: 1px solid #ccc;
+	width: 40px;
+	height: 40px;
+	line-height: 38px;
+	display: inline-block;
+	opacity: 0.80;
+}
+.footer .social a:hover{
+	opacity: 1;
+}
+.footer ul {
+margin-top: 0;
+padding: 0;
+text-align: center;
+list-style: none;
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 0;
+}
+.footer ul li a {
+	color: inherit;
+	text-decoration: none;
+	opacity: 0.75;
+}
+.footer ul li {
+	display: inline-block;
+	padding: 0 15px;
+}
+.footer ul li a:hover{
+	opacity: 0.9;
+}
+.footer .copyright {
+	margin-top: 15px;
+	text-align: center;
+	font-size: 13px;
+	color: #aaa;
+}
